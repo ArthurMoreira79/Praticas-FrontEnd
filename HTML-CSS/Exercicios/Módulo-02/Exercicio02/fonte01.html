@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; /* Safe combination */
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc;
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %;
+
+            Recomendado usar px e em pela W3C; 
+            16px = 1em;
+            */
+            font-size: 16px;
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            font-weight: bolder;
+            /*lighter normal bold bolder, numerica*/
+            font-style: italic;
+            /*italico*/
+            text-decoration: underline;
+            /*sublinhado*/
+        }
+
+        h2{
+            /*Shorthand font*/
+            /*font style > weight > size > family*/
+            font: italic bolder 1em arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error adipisci optio aliquam iste dignissimos tenetur odit nam iusto aut repellat suscipit dolores delectus consectetur aliquid saepe ullam, cupiditate repellendus incidunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati magni vitae quisquam facilis veniam culpa officiis quam! Nesciunt esse quis assumenda, officia repellendus dolor odio consequatur error sint, adipisci aliquam!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia quae quisquam fugiat ut ratione quia expedita, modi eos et iste sed impedit id consectetur commodi maiores quod aperiam illo neque!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum accusamus excepturi, dignissimos, placeat reprehenderit deleniti cumque error autem enim laudantium sint fugiat quo inventore similique quis et. Excepturi, nostrum dolorum!</p>
+</body>
+</html>
