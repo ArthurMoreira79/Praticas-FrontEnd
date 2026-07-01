@@ -1,2 +1,2 @@
 # Praticas FrontEnd
-Praticas do Curso de HTML5 e CSS3
+Aqui estão algumas das minhas praticas de frontend, uns projetinhos com HTML e CSS.
